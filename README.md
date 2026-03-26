@@ -1,6 +1,6 @@
 # pipelineMem:  Simulated improvements to Pipeline DNA Memory
 
-This is supplemental information for a paper submitted to 2026 DNA Computing Conference.  There is one python program "recurPipe.py") which simulates the purely recursive definition given in the paper (similar but more elegant than recursive C code in US patent 11,515,012B1). This python code illustrates the algorithm correctly accesses sequential information one address per cycle.  It also shows a problem with arbitrary random access.  
+This is supplemental information for a paper submitted to 2026 DNA Computing Conference.  There is one python program ("recurPipe.py") which simulates the purely recursive definition given in the paper (similar but more elegant than recursive C code in US patent 11,515,012B1). This python code illustrates the algorithm correctly accesses sequential information one address per cycle.  It also shows a problem with arbitrary random access.  
 
 The patent solves the problems with random access with extra hardware that uses extra cycles.  The novel idea in the paper illustrated by the code in this repo (not disclosed in the patent) is how to solve the problem in fewer cycles without extra hardware.
 
