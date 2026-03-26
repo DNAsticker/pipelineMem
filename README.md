@@ -6,7 +6,7 @@ The patent solves the problems with random access with extra hardware that uses 
 
 There are several varieties of java source files that conduct exhaustive simulations.
 
-The files with "StickxNLE" use strings to represent stickers that encode the address of each strands.  This code was taken from similar javascript.
+The files with "StickxNLE" use strings to represent stickers that encode the address of each strands.  This code was taken from similar javascript (//http://xlnsresearch.com/sticker1.htm).
 
 The files with "StickxNLEpop*.java" use more efficient encoding, but still consider the contents of memory.  Also, "StickxNLEpopt*.java" is slightly more efficient.
 
