@@ -4,7 +4,7 @@ This is supplemental information for a paper submitted to 2026 DNA Computing Con
 
 The patent solves the problems with random access with extra hardware that uses extra cycles.  The novel idea in the paper illustrated by the code in this repo (not disclosed in the patent) is how to solve the problem in fewer cycles without extra hardware.
 
-There are several varieties of java source files.
+There are several varieties of java source files that conduct exhaustive simulations.
 
 The files with "StickxNLE" use strings to represent stickers that encode the address of each strands.  This code was taken from similar javascript.
 
