@@ -12,4 +12,4 @@ The files with "StickxNLEpop*.java" use more efficient encoding, but still consi
 
 The files with "StFake*.java" only simulate the presence of the tubes in the algorithm (and not the contents) for efficiency. The result of the simulation still verifies the correctness of the algorithm because the contents can be assumed from the pattern of the s and c logic.   
 
-The number in the file name is the address width, aw.  Each of the simulations test every possible random address between 0 and 2 raised to aw, and then checks if sequential addressing continues correctly after the initial random access.  The main thing being tested are the special cases described in the paper for aw<=32.
+The number in the file name is the address width, aw.  Each of the simulations test every possible random address between 0 and 2 raised to aw, and then checks if sequential addressing continues correctly after the initial random access.  The main thing being tested are the special cases described in the paper for aw<=32.  These cases are mod(x,2**(n_N+1))=2**(n_N+1)-n_N for n_N in {5,9,10,13,17,18,19,21,25,26,29}.
